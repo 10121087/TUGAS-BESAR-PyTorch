@@ -1,0 +1,5 @@
+pandas
+hydralit_component
+folium
+streamlit_folium
+plotly.express
