@@ -29,7 +29,7 @@ df = ambil_data()
 latar = """
 <style>
 [data-testid="stAppViewContainer"]{
-background-image: url("https://cdn.discordapp.com/attachments/1038017092806512712/1070778864890028112/white_wallpaper_5_4k_hd_white-1920x1080.jpg");
+background-image: url("https://cdn.discordapp.com/attachments/1060111804119924768/1070841442659995738/20230201_141532.jpg");
 background-size: 120%;
 background-position: top left;
 background-repeat: no-repeat;
