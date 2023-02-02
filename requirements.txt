@@ -1,5 +1,5 @@
 pandas
-hydralit_component
+hydralit-components
 folium
-streamlit_folium
+streamlit-folium
 plotly.express
