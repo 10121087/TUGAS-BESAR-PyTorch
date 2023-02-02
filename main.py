@@ -30,7 +30,7 @@ latar = """
 <style>
 [data-testid="stAppViewContainer"]{
 background-image: url("https://cdn.discordapp.com/attachments/1060111804119924768/1070841442659995738/20230201_141532.jpg");
-background-size: 120%;
+background-size: 100%;
 background-position: top left;
 background-repeat: no-repeat;
 background-attachment: local;
