@@ -15,9 +15,6 @@ st.set_page_config(page_title='TUGAS KELOMPOK',
 
 
 # CREATE DATAFRAME
-
-
-@st.cache
 def ambil_data():
     df = pd.read_excel(
         io='hotel_jawabarat_tiket_fix.xlsx',
