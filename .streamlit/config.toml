@@ -1,0 +1,25 @@
+[theme]
+base="dark"
+primaryColor="white"
+
+# Background color for the main content area.
+backgroundColor = "#D4F1F4"
+
+# Background color used for the sidebar and most interactive widgets.
+#secondaryBackgroundColor = "#DCDEE6"
+secondaryBackgroundColor = "#189AB4"
+
+# Color used for almost all text.
+#textColor = "#000000"
+
+# Font family for all text in the app, except code blocks. One of "sans serif", "serif", or "monospace".
+# Default: "sans serif"
+font = "sans serif"
+
+[client]
+
+# Whether to enable st.cache.
+caching = true
+
+# If false, makes your Streamlit script not draw to a Streamlit app.
+displayEnabled = true
