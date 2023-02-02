@@ -3,3 +3,4 @@ hydralit-components
 folium
 streamlit-folium
 plotly.express
+streamlit-option-menu
