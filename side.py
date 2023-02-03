@@ -605,8 +605,8 @@ def info1(df):
 
 def info2(df):
     with st.container():
-        bar = pd.DataFrame(df.groupby(['city']).mean()).reset_index()
-        bar2 = pd.DataFrame(df.groupby(['city']).count()).reset_index()
+        bar = df.groupby(['city']).mean().reset_index()
+        bar2 = df.groupby(['city']).count().reset_index()
         Q1, Q2, Q3 = st.columns(3)
         with Q1:
             columns1 = bar[['city', 'price']]
@@ -659,8 +659,8 @@ def info3(df):
     with st.container():
         col1, col2 = st.columns(2)
         with col1:
-            pai = pd.DataFrame(df.groupby(
-                ["impression"]).count()).reset_index()
+            pai = df.groupby(
+                ["impression"]).count().reset_index()
             fig = px.pie(pai, values='city', names='impression',
                          title='Total Ulasan Hotel di Jawa Barat')
             fig.update_traces(textposition='inside')
