@@ -83,12 +83,8 @@ elif selected == "Detail Hotel":
             <center><h4>Sesuai koordinat Hotel</h4></center>
             """, unsafe_allow_html=True)
     col1, col2, col3 = st.columns((1,12,2), gap='large')
-    with col1:
-        st.write(' ')
     with col2:
         Tampil(detail, "all")
-    with col3:
-        st.write(' ')
     detailpref(detail, tipe)
 
 elif selected == "About":
