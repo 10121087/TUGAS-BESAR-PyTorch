@@ -82,7 +82,7 @@ elif selected == "Detail Hotel":
             <center><h1>Detail Posisi Hotel Jawa Barat</h1></center>
             <center><h4>Sesuai koordinat Hotel</h4></center>
             """, unsafe_allow_html=True)
-    col1, col2, col3 = st.columns((2,12,1), gap='large')
+    col1, col2, col3 = st.columns((1,12,2), gap='large')
     with col1:
         st.write(' ')
     with col2:
