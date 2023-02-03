@@ -82,17 +82,17 @@ elif selected == "Detail Hotel":
             <center><h1>Detail Posisi Hotel Jawa Barat</h1></center>
             <center><h4>Sesuai koordinat Hotel</h4></center>
             """, unsafe_allow_html=True)
-    col1, col2, col3 = st.columns([1,12,1])
-    with col2:
-        Tampil(detail, "all")
+    col1, col2, col3 = st.columns((1,12,1))
     with col1:
         st.write(' ')
+    with col2:
+        Tampil(detail, "all")
     with col3:
         st.write(' ')
     detailpref(detail, tipe)
 
 elif selected == "About":
-    with hc.HyLoader('Memuat Data', hc.Loaders.standard_loaders, height=200):
+    with hc.HyLoader('Memuat Data', hc.Loaders.pacman, height=150):
         time.sleep(1)
     about()
 
