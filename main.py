@@ -12,7 +12,9 @@ st.set_page_config(page_title='TUGAS KELOMPOK',
                    layout='wide',
                    initial_sidebar_state="collapsed"
                    )
-
+st.markdown("""
+<style>div[data-testid="stToolbar"] { display: none;}</style>
+""", unsafe_allow_html=True)
 
 # CREATE DATAFRAME
 def ambil_data():
