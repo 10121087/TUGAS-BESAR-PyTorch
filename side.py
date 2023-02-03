@@ -371,6 +371,9 @@ def html_hotel(df, row):
                 crossorigin="anonymous"></script>
         </head>
         <style>
+        .card {
+        background-color: rgb(241 241 241 / 41%);}
+        
         .rating-static {
         width: 60px;
         height: 16px;
@@ -432,7 +435,7 @@ def about():
 </head>
 <style>
     .card {
-    background-color: #9999992b;
+    background-color: #9999992b;}
 </style>
 <body style="background-color: transparent;">
     <div class="container-fluid">
