@@ -42,11 +42,7 @@ background-attachment: local;
 background: rgba(0,0,0,0);
 }
 
-[data-testid="stToolbar"] {
-right: 2rem;
-}
-
-[class="card mb-3"] {
+.card {
 background-color: rgba(0,0,0,0);
 }
 </style>
