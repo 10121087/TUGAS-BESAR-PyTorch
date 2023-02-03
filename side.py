@@ -416,7 +416,7 @@ def html_hotel(df, row):
     </body>
     </html>
     """
-    return com.html(html, width=1600, height=700)
+    return html
 
 
 def about():
@@ -572,7 +572,7 @@ def about():
 </body>
 
 </html>"""
-    return html
+    return com.html(html, width=1600, height=700)
 
 
 def info1(df):
