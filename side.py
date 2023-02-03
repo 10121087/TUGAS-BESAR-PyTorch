@@ -572,7 +572,7 @@ def about():
 </body>
 
 </html>"""
-    return com.html(html, width=1600, height=700)
+    return com.html(html, width=1700, height=1000)
 
 
 def info1(df):
