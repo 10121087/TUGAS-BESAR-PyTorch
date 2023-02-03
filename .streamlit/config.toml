@@ -6,4 +6,4 @@ base="light"
 caching = true
 
 # If false, makes your Streamlit script not draw to a Streamlit app.
-displayEnabled = false
+displayEnabled = true
