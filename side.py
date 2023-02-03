@@ -605,8 +605,8 @@ def info1(df):
 
 def info2(df):
     with st.container():
-        bar = df.groupby(['city']).mean().reset_index()
-        bar2 = df.groupby(['city']).count().reset_index()
+        bar = df.groupby(['city']).mean()
+        bar2 = df.groupby(['city']).count()
         Q1, Q2, Q3 = st.columns(3)
         with Q1:
             columns1 = bar[['city', 'price']]
