@@ -392,7 +392,7 @@ def html_hotel(df, row):
         .rating-35 { background-position: -12px -16px; }
         .rating-45 { background-position: 0 -16px; }
         </style>
-        <body>
+        <body style="background-color: transparent;">
         <div data-bs-theme="dark" class="container-sm  border-0">
             <div class="card text-start border-0">
                 <center>
