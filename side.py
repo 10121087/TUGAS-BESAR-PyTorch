@@ -162,7 +162,7 @@ def Tampil(df, pilih):
     if pilih == "all":
         df1 = df
     if pilih == "city":
-        df1 = pd.DataFrame(df.groupby(["city"]).mean()).reset_index()
+        df1 = df.groupby(["city"]).mean().reset_index()
         folium.GeoJson(
             grid,
             style_function=lambda feature: {
@@ -191,9 +191,9 @@ def Tampil(df, pilih):
 
 def popup_html_kota(df, row):
     i = row
-    jumlah = pd.DataFrame(df.groupby(["city"]).count()).reset_index()
+    jumlah = df.groupby(["city"]).count().reset_index()
     jumlah = jumlah.iloc[i, 1]
-    Data_Jabar = pd.DataFrame(df.groupby(["city"]).mean()).reset_index()
+    Data_Jabar = df.groupby(["city"]).mean().reset_index()
     nama = Data_Jabar['city'].iloc[i]
     gambar = Gambar(nama)
     harga = Data_Jabar['price'].iloc[i]
