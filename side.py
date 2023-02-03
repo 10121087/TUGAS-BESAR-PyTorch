@@ -27,8 +27,7 @@ def Judul():
     header_left, header_mid, header_right = st.columns([1, 2, 1])
     with header_mid:
         st.title("Hotel Di Provinsi Jawa Barat")
-        st.caption(
-            "Data di scrapping dari website Tiket.com")
+        st.caption("Data di scrapping dari website Tiket.com")
     st.markdown('---')
 
 
@@ -431,7 +430,10 @@ def about():
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 </head>
-
+<style>
+    .card {
+    background-color: #9999992b;
+</style>
 <body style="background-color: transparent;">
     <div class="container-fluid">
         <center>
@@ -567,7 +569,7 @@ def about():
 </body>
 
 </html>"""
-    return com.html(html, width=1520, height=1000)
+    return com.html(html, width=1700, height=1000)
 
 
 def info1(df):
