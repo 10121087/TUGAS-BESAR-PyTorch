@@ -725,7 +725,7 @@ def detailpref(detail, tipe):
     if tipe == "hotel":
         for i in range(0, jumlah):
             def conten(df, i):
-                com.html(html_hotel(df, i), width=1700, height=700)
+                com.html(html_hotel(df, i), width=1700, height=1000)
                 return conten
             conten(detail, i)
 
